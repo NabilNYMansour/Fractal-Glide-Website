@@ -24,13 +24,13 @@ import CustomIcon from "./icons/customIcon";
 const links = {
   email: "mailto:nabilnymansour@gmail.com",
   personalWebsite: "https://nabilmansour.com",
-  presskit: "https://nabilmansour.com", // todo: change to presskit link
+  presskit: "https://nabilmansour.com/InProgress", // todo: change to presskit link
   steamPage: "https://store.steampowered.com/app/2565200/Fractal_Glide/", // todo: check if steam page is accessible
 };
 
 const contacts = [
   {
-    link: "https://www.tiktok.com/@nabilnymansour", // todo: change to discord link
+    link: "https://nabilmansour.com/InProgress", // todo: change to discord link
     title: "Discord",
     icon: (
       <CustomIcon
@@ -115,7 +115,13 @@ function App() {
           <div className="fixed-background" />
           <div className="title">FRACTAL GLIDE</div>
           {/* Wishlist button */}
-          <Button color="slightgray" variant="text">
+          <Button
+            color="slightgray"
+            variant="text"
+            href={links.steamPage}
+            target="_blank"
+            rel="noreferrer"
+          >
             Wishlist on&nbsp;
             <SteamIcon />
             &nbsp;Steam
@@ -168,7 +174,7 @@ function App() {
                            through the wonders of fractals."
             />
           </div>
-          {/* Description */}
+          {/* Features */}
           <div className="desc-container">
             <BasicCardList
               title="Features"
@@ -224,7 +230,7 @@ function App() {
               alignItems: "center",
             }}
           >
-            {/* Fotter links */}
+            {/* Footer links */}
             <div>
               <Button
                 color="slightgray"

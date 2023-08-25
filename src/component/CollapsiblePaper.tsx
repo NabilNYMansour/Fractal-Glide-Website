@@ -49,7 +49,7 @@ export default function CollapsiblePaper({
             width: "100%",
           }}
         >
-          <Typography textAlign="center">{title}</Typography>
+          <Typography textAlign="left">{title}</Typography>
           <ExpandMore
             expand={expanded}
             aria-expanded={expanded}
