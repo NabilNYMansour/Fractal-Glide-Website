@@ -24,13 +24,13 @@ import CustomIcon from "./icons/customIcon";
 const links = {
   email: "mailto:nabilnymansour@gmail.com",
   personalWebsite: "https://nabilmansour.com",
-  presskit: "https://nabilmansour.com/InProgress", // todo: change to presskit link
-  steamPage: "https://store.steampowered.com/app/2565200/Fractal_Glide/", // todo: check if steam page is accessible
+  presskit: "https://pickled-brother-2cc.notion.site/FRACTAL-GLIDE-Presskit-5c5eb7592b5f4ea185dac8ac2d30e176",
+  steamPage: "https://store.steampowered.com/app/2565200/Fractal_Glide/",
 };
 
 const contacts = [
   {
-    link: "https://nabilmansour.com/InProgress", // todo: change to discord link
+    link: "https://discord.com/invite/AQxcRZVv",
     title: "Discord",
     icon: (
       <CustomIcon
