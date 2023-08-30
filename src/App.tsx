@@ -30,7 +30,7 @@ const links = {
 
 const contacts = [
   {
-    link: "https://discord.com/invite/AQxcRZVv",
+    link: "https://discord.com/invite/wHvbTvqF",
     title: "Discord",
     icon: (
       <CustomIcon
