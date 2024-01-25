@@ -17,6 +17,11 @@ const images = [
   "./screenshots/s3.png",
   "./screenshots/s4.png",
   "./screenshots/s5.png",
+  "./screenshots/s6.png",
+  "./screenshots/s7.png",
+  "./screenshots/s8.png",
+  "./screenshots/s9.png",
+  "./screenshots/s10.png",
 ];
 
 function Carousel() {

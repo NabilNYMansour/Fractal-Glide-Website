@@ -122,7 +122,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Wishlist on&nbsp;
+            Available on&nbsp;
             <SteamIcon />
             &nbsp;Steam
           </Button>
@@ -162,7 +162,7 @@ function App() {
             </Card>
           </div>
           {/* Trailer */}
-          <YoutubeEmbed embedId="Ng7I_fqYkqo" />
+          <YoutubeEmbed embedId="pJVRusKEBrQ?si=gD_kOxsogtTuvXc9" />
           {/* Description */}
           <div className="desc-container">
             <BasicCard
